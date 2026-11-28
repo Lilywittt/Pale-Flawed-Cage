@@ -1,0 +1,217 @@
+<svg viewBox="0 0 888 214" width="888" height="214" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Microsoft YaHei', sans-serif">
+  <defs>
+    <g id="df-sta"><polygon points="1,-5.5 -3.8,0.8 0,0.8 -1,5.5 3.8,-0.8 0,-0.8" fill="#eab308" /></g>
+    <g id="df-psy"><polygon points="0,-5 4.4,0 0,5 -4.4,0" fill="#a855f7" /><circle r="1.3" fill="#ffffff" /></g>
+    <g id="df-tru"><polygon points="0,-5 1.5,-1.5 5,-1.2 2.2,1.1 3.1,4.7 0,2.7 -3.1,4.7 -2.2,1.1 -5,-1.2 -1.5,-1.5" fill="#06b6d4" /></g>
+    <g id="df-clu"><circle cx="-1" cy="-1" r="3.2" fill="none" stroke="#10b981" stroke-width="1.7" /><line x1="1.4" y1="1.4" x2="4.3" y2="4.3" stroke="#10b981" stroke-width="1.7" stroke-linecap="round" /></g>
+    <g id="df-haz"><polygon points="0,-4.8 4.8,4.2 -4.8,4.2" fill="none" stroke="#ef4444" stroke-width="1.6" stroke-linejoin="round" /><line x1="0" y1="-1" x2="0" y2="1.8" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round" /></g>
+    <g id="df-opp"><rect x="-4" y="-4.6" width="8" height="9.2" rx="1.3" fill="none" stroke="#6366f1" stroke-width="1.7" /><circle r="1.5" fill="#6366f1" /></g>
+    <g id="df-san"><rect x="-1.5" y="-5" width="3" height="10" rx="0.7" fill="#14b8a6" /><rect x="-5" y="-1.5" width="10" height="3" rx="0.7" fill="#14b8a6" /></g>
+
+    <g id="df-phase-arr">
+      <line x1="-9" y1="0" x2="6" y2="0" stroke="#64748b" stroke-width="2.2" stroke-linecap="round" />
+      <polyline points="2,-4.5 7.5,0 2,4.5" fill="none" stroke="#64748b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="df-sm-arr">
+      <line x1="-5" y1="0" x2="3.5" y2="0" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round" />
+      <polyline points="0.8,-2.8 4.5,0 0.8,2.8" fill="none" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="df-swap">
+      <path d="M-5,-2 H4 M2,-4.2 L4.5,-2 L2,0.2" fill="none" stroke="#64748b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M5,2.2 H-4 M-2,0 L-4.5,2.2 L-2,4.4" fill="none" stroke="#64748b" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="df-refresh">
+      <path d="M -4.2 -1.5 A 4.5 4.5 0 1 1 -3.2 3.2" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round" />
+      <polyline points="-6.2,-0.8 -4.2,-2.6 -2.2,-0.6" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="4" y="4" width="880" height="206" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+
+  <!-- DAY 1 Direct Entry Badge -->
+  <g transform="translate(302, 8)">
+    <rect x="0" y="0" width="52" height="17" rx="8.5" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.2" />
+    <text x="26" y="11.8" text-anchor="middle" font-size="9" font-weight="800" fill="#1d4ed8">DAY 1</text>
+    <line x1="26" y1="17" x2="26" y2="25" stroke="#3b82f6" stroke-width="1.5" />
+    <polyline points="23,22.5 26,26 29,22.5" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- PHASE 1: 晨间 -->
+  <g transform="translate(18, 34)">
+    <rect width="236" height="148" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" />
+    <rect x="1" y="1" width="234" height="27" rx="7" fill="#fef9c3" />
+    <circle cx="19" cy="14.5" r="8.5" fill="#ca8a04" />
+    <text x="19" y="18" text-anchor="middle" font-size="10" font-weight="800" fill="#ffffff">1</text>
+    <text x="35" y="19" font-size="12" font-weight="800" fill="#713f12">晨间</text>
+    <g transform="translate(212, 17)">
+      <path d="M-7,0 A7,7 0 0,1 7,0" fill="#facc15" stroke="#ca8a04" stroke-width="1.2" />
+      <line x1="-10" y1="1" x2="10" y2="1" stroke="#ca8a04" stroke-width="1.4" stroke-linecap="round" />
+    </g>
+
+    <g transform="translate(14, 38)">
+      <rect width="208" height="40" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+      <rect x="12" y="9" width="58" height="22" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" />
+      <text x="41" y="23.5" text-anchor="middle" font-size="9.5" font-weight="800" fill="#334155">DAY +1</text>
+      <line x1="84" y1="8" x2="84" y2="32" stroke="#e2e8f0" />
+      <circle cx="106" cy="20" r="6" fill="#3b82f6" />
+      <g transform="translate(124, 20)"><use href="#df-swap" /></g>
+      <circle cx="142" cy="20" r="6" fill="#ec4899" />
+      <rect x="156" y="10" width="40" height="20" rx="10" fill="#dcfce7" stroke="#10b981" stroke-width="1.1" />
+      <text x="176" y="23.5" text-anchor="middle" font-size="9" font-weight="800" fill="#065f46">先手</text>
+    </g>
+
+    <g transform="translate(14, 86)">
+      <rect width="208" height="52" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+      <g transform="translate(16, 15)">
+        <rect x="0" y="3" width="15" height="22" rx="2" fill="#dcfce7" stroke="#10b981" />
+        <rect x="12" y="1" width="15" height="22" rx="2" fill="#dbeafe" stroke="#3b82f6" />
+        <rect x="24" y="3" width="15" height="22" rx="2" fill="#fee2e2" stroke="#ef4444" />
+        <rect x="36" y="5" width="15" height="22" rx="2" fill="#dcfce7" stroke="#10b981" />
+        <g transform="translate(25, -6)"><use href="#df-swap" /></g>
+      </g>
+      <g transform="translate(94, 26)">
+        <rect x="-13" y="-9" width="26" height="18" rx="4" fill="#fef9c3" stroke="#eab308" />
+        <text x="-5" y="3.5" font-size="9" font-weight="800" fill="#854d0e">-</text>
+        <g transform="translate(4, 0) scale(0.75)"><use href="#df-sta" /></g>
+      </g>
+      <g transform="translate(120, 26)"><use href="#df-sm-arr" /></g>
+      <g transform="translate(136, 6)">
+        <rect x="0" y="0" width="58" height="18" rx="4" fill="#eff6ff" stroke="#60a5fa" />
+        <rect x="7" y="3" width="7.5" height="11.5" rx="1.2" fill="#3b82f6" />
+        <text x="35" y="12.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#1e40af">手牌</text>
+      </g>
+      <g transform="translate(136, 28)" opacity="0.65">
+        <rect x="0" y="0" width="58" height="18" rx="4" fill="#f1f5f9" stroke="#94a3b8" />
+        <rect x="7" y="3" width="7.5" height="11.5" rx="1.2" fill="#cbd5e1" stroke="#64748b" stroke-width="0.8" />
+        <text x="35" y="12.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#475569">弃牌堆</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(270, 108)"><use href="#df-phase-arr" /></g>
+
+  <!-- PHASE 2: 日间 -->
+  <g transform="translate(286, 34)">
+    <rect width="288" height="148" rx="8" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5" />
+    <rect x="1" y="1" width="286" height="27" rx="7" fill="#dbeafe" />
+    <circle cx="19" cy="14.5" r="8.5" fill="#2563eb" />
+    <text x="19" y="18" text-anchor="middle" font-size="10" font-weight="800" fill="#ffffff">2</text>
+    <text x="35" y="19" font-size="12" font-weight="800" fill="#1e3a8a">日间</text>
+    <g transform="translate(264, 14.5)">
+      <circle r="5" fill="#3b82f6" />
+      <circle r="8" fill="none" stroke="#3b82f6" stroke-width="1.2" stroke-dasharray="2 2.2" />
+    </g>
+
+    <g transform="translate(14, 38)">
+      <rect width="260" height="100" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+
+      <!-- Row 1: 2 Actions -> Keep Turn Alive -->
+      <g transform="translate(18, 12)">
+        <rect x="0" y="0" width="70" height="22" rx="4.5" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.3" />
+        <text x="35" y="14.8" text-anchor="middle" font-size="9.5" font-weight="800" fill="#1d4ed8">动作 1</text>
+        <g transform="translate(82, 11)"><use href="#df-sm-arr" /></g>
+        <rect x="94" y="0" width="70" height="22" rx="4.5" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.3" />
+        <text x="129" y="14.8" text-anchor="middle" font-size="9.5" font-weight="800" fill="#1d4ed8">动作 2</text>
+        <g transform="translate(176, 11)"><use href="#df-sm-arr" /></g>
+        <g transform="translate(198, 11)">
+          <circle cx="-5" cy="0" r="4.5" fill="#3b82f6" />
+          <circle cx="5" cy="0" r="4.5" fill="#ec4899" />
+          <g transform="translate(21, 0)"><use href="#df-refresh" /></g>
+        </g>
+      </g>
+
+      <!-- Row 2: 1 Action -> End Day -->
+      <g transform="translate(18, 40)">
+        <rect x="0" y="0" width="70" height="22" rx="4.5" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.3" />
+        <text x="35" y="14.8" text-anchor="middle" font-size="9.5" font-weight="800" fill="#1d4ed8">动作 1</text>
+        <g transform="translate(82, 11)"><use href="#df-sm-arr" /></g>
+        <rect x="94" y="0" width="80" height="22" rx="4.5" fill="#e2e8f0" stroke="#64748b" stroke-width="1.2" />
+        <text x="134" y="14.8" text-anchor="middle" font-size="9.5" font-weight="800" fill="#334155">结束今日</text>
+      </g>
+
+      <!-- Row 3: Direct End Day -->
+      <g transform="translate(18, 68)">
+        <rect x="0" y="0" width="80" height="22" rx="4.5" fill="#e2e8f0" stroke="#64748b" stroke-width="1.2" />
+        <text x="40" y="14.8" text-anchor="middle" font-size="9.5" font-weight="800" fill="#334155">结束今日</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(590, 108)"><use href="#df-phase-arr" /></g>
+
+  <!-- PHASE 3: 夜间 -->
+  <g transform="translate(606, 34)">
+    <rect width="264" height="148" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.4" />
+    <rect x="1" y="1" width="262" height="27" rx="7" fill="#1e293b" />
+    <circle cx="19" cy="14.5" r="8.5" fill="#475569" />
+    <text x="19" y="18" text-anchor="middle" font-size="10" font-weight="800" fill="#ffffff">3</text>
+    <text x="35" y="19" font-size="12" font-weight="800" fill="#f8fafc">夜间</text>
+    <path d="M 244 9 A 6.5 6.5 0 1 0 250 19 A 5.2 5.2 0 1 1 244 9 Z" fill="#fde047" />
+
+    <!-- Endgame Check -->
+    <g transform="translate(14, 35)">
+      <rect width="236" height="25" rx="5" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.2" />
+      <rect x="10" y="7.5" width="34" height="10" rx="5" fill="#10b981" />
+      <rect x="49" y="7.5" width="34" height="10" rx="5" fill="#f59e0b" />
+      <rect x="88" y="7.5" width="34" height="10" rx="5" fill="#ef4444" />
+      <g transform="translate(136, 12.5)"><use href="#df-sm-arr" /></g>
+      <circle cx="162" cy="12.5" r="8" fill="#0f172a" />
+      <text x="162" y="15.8" text-anchor="middle" font-size="8.5" font-weight="800" fill="#ffffff">因</text>
+      <text x="196" y="16.5" text-anchor="middle" font-size="9.5" font-weight="800" fill="#92400e">终局</text>
+    </g>
+
+    <!-- Step 1 -->
+    <g transform="translate(14, 65)">
+      <rect width="236" height="23" rx="4.5" fill="#f8fafc" stroke="#e2e8f0" />
+      <circle cx="14" cy="11.5" r="7" fill="#cbd5e1" /><text x="14" y="14.8" text-anchor="middle" font-size="8" font-weight="800" fill="#334155">1</text>
+      <g transform="translate(46, 11.5) scale(0.9)"><use href="#df-opp" /></g>
+      <text x="72" y="15" text-anchor="middle" font-size="9" font-weight="700" fill="#4338ca">机会</text>
+      <g transform="translate(104, 11.5)"><use href="#df-sm-arr" /></g>
+      <g transform="translate(128, 11.5) scale(0.9)"><use href="#df-san" /></g>
+      <text x="154" y="15" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">理智</text>
+    </g>
+
+    <!-- Step 2 -->
+    <g transform="translate(14, 92)">
+      <rect width="236" height="23" rx="4.5" fill="#f8fafc" stroke="#e2e8f0" />
+      <circle cx="14" cy="11.5" r="7" fill="#cbd5e1" /><text x="14" y="14.8" text-anchor="middle" font-size="8" font-weight="800" fill="#334155">2</text>
+      <rect x="34" y="4" width="20" height="15" rx="2.5" fill="#e2e8f0" stroke="#94a3b8" />
+      <text x="44" y="15" text-anchor="middle" font-size="9.5" font-weight="800" fill="#334155">+</text>
+      <g transform="translate(68, 11.5)"><use href="#df-sm-arr" /></g>
+      <g transform="translate(92, 11.5) scale(0.9)"><use href="#df-sta" /></g>
+      <g transform="translate(114, 11.5) scale(0.9)"><use href="#df-psy" /></g>
+      <g transform="translate(136, 11.5) scale(0.9)"><use href="#df-tru" /></g>
+      <g transform="translate(158, 11.5) scale(0.9)"><use href="#df-clu" /></g>
+      <g transform="translate(180, 11.5) scale(0.9)"><use href="#df-haz" /></g>
+      <g transform="translate(202, 11.5) scale(0.9)"><use href="#df-opp" /></g>
+    </g>
+
+    <!-- Step 3 -->
+    <g transform="translate(14, 119)">
+      <rect width="236" height="23" rx="4.5" fill="#f8fafc" stroke="#e2e8f0" />
+      <circle cx="14" cy="11.5" r="7" fill="#cbd5e1" /><text x="14" y="14.8" text-anchor="middle" font-size="8" font-weight="800" fill="#334155">3</text>
+      <g transform="translate(36, 4.5)">
+        <rect x="0" y="0" width="14" height="14" fill="#ffffff" stroke="#cbd5e1" />
+        <rect x="14" y="0" width="14" height="14" fill="#ffffff" stroke="#cbd5e1" />
+        <rect x="3.5" y="3.5" width="7" height="7" rx="1.2" fill="#ffffff" stroke="#0f172a" stroke-width="1.4" />
+        <path d="M11.5,7 H22 M19.5,4.8 L22.5,7 L19.5,9.2" fill="none" stroke="#0f172a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <line x1="84" y1="5" x2="84" y2="18" stroke="#e2e8f0" />
+      <g transform="translate(112, 11.5)">
+        <circle r="6.2" fill="#eef2ff" stroke="#6366f1" stroke-width="1.3" />
+        <polygon points="0,-3 2.8,2 0,0.8 -2.8,2" fill="#4f46e5" />
+        <g transform="translate(16, 0) scale(0.82)"><use href="#df-refresh" /></g>
+      </g>
+      <line x1="150" y1="5" x2="150" y2="18" stroke="#e2e8f0" />
+      <g transform="translate(176, 11.5)">
+        <rect x="-5.5" y="-5.8" width="8.5" height="11.6" rx="1.4" fill="#3b82f6" />
+        <g transform="translate(14, 0) scale(0.82)"><use href="#df-refresh" /></g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Return Loop: Night -> Next Morning -->
+  <path d="M 738 182 L 738 197 Q 738 201 734 201 L 140 201 Q 136 201 136 197 L 136 185" fill="none" stroke="#64748b" stroke-width="1.7" stroke-dasharray="4 3" />
+  <polyline points="132,189 136,183.5 140,189" fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

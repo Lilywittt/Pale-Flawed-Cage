@@ -1,0 +1,254 @@
+<svg viewBox="0 0 888 148" width="888" height="148" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Microsoft YaHei', sans-serif">
+  <defs>
+    <!-- Role Tree Emblem -->
+    <g id="emblem-tree">
+      <line x1="0" y1="-6" x2="0" y2="-1" stroke="#0f172a" stroke-width="1.6" stroke-linecap="round" />
+      <line x1="0" y1="-1" x2="-4.5" y2="3.5" stroke="#0f172a" stroke-width="1.4" stroke-linecap="round" />
+      <line x1="0" y1="-1" x2="4.5" y2="3.5" stroke="#0f172a" stroke-width="1.4" stroke-linecap="round" />
+      <line x1="-4.5" y1="3.5" x2="-6.8" y2="7" stroke="#64748b" stroke-width="1.2" stroke-linecap="round" />
+      <line x1="-4.5" y1="3.5" x2="-2.2" y2="7" stroke="#64748b" stroke-width="1.2" stroke-linecap="round" />
+      <line x1="4.5" y1="3.5" x2="2.2" y2="7" stroke="#64748b" stroke-width="1.2" stroke-linecap="round" />
+      <line x1="4.5" y1="3.5" x2="6.8" y2="7" stroke="#64748b" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+
+    <!-- Resource Icons -->
+    <g id="i-sta"><polygon points="1,-6 -4,1 0,1 -1,6 4,-1 0,-1" fill="#eab308" /></g>
+    <g id="i-psy"><polygon points="0,-6 5,0 0,6 -5,0" fill="#a855f7" /><circle cx="0" cy="0" r="1.6" fill="#ffffff" /></g>
+    <g id="i-tru"><polygon points="0,-6 1.8,-1.8 6,-1.5 2.7,1.4 3.8,5.8 0,3.4 -3.8,5.8 -2.7,1.4 -6,-1.5 -1.8,-1.8" fill="#06b6d4" /></g>
+    <g id="i-opp"><rect x="-4.5" y="-5" width="9" height="10" rx="1.5" fill="none" stroke="#6366f1" stroke-width="1.8" /><circle cx="0" cy="0" r="1.8" fill="#6366f1" /></g>
+    <g id="i-clu"><circle cx="-1" cy="-1" r="3.8" fill="none" stroke="#10b981" stroke-width="1.8" /><line x1="1.8" y1="1.8" x2="5" y2="5" stroke="#10b981" stroke-width="1.8" stroke-linecap="round" /></g>
+    <g id="i-haz"><polygon points="0,-6 5.8,5 -5.8,5" fill="none" stroke="#ef4444" stroke-width="1.7" stroke-linejoin="round" /><line x1="0" y1="-1.5" x2="0" y2="2" stroke="#ef4444" stroke-width="1.6" stroke-linecap="round" /></g>
+
+    <!-- Glossy Gradients for Frontend Tag Medallions -->
+    <linearGradient id="hg-psy" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a855f7"/><stop offset="100%" stop-color="#7e22ce"/></linearGradient>
+    <linearGradient id="hg-tru" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="100%" stop-color="#0e7490"/></linearGradient>
+    <linearGradient id="hg-clu" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#047857"/></linearGradient>
+    <linearGradient id="hg-sch" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#b91c1c"/></linearGradient>
+    <linearGradient id="hg-fre" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#4338ca"/></linearGradient>
+    <linearGradient id="hg-san" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#14b8a6"/><stop offset="100%" stop-color="#0f766e"/></linearGradient>
+    <linearGradient id="hg-trh" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2563eb"/><stop offset="100%" stop-color="#1e3a8a"/></linearGradient>
+    <linearGradient id="hg-bnd" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ec4899"/><stop offset="100%" stop-color="#be185d"/></linearGradient>
+    <linearGradient id="hg-out" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#0369a1"/></linearGradient>
+    <linearGradient id="hg-plc" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#78716c"/><stop offset="100%" stop-color="#44403c"/></linearGradient>
+    <linearGradient id="hg-itm" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#b45309"/></linearGradient>
+    <linearGradient id="hg-evt" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#c2410c"/></linearGradient>
+
+    <!-- 12 Mini Circular Frontend Tag Medallions (r=10) -->
+    <g id="ht-psy"><circle r="10" fill="url(#hg-psy)" stroke="#581c87" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><polygon points="0,-5.4 4.6,0 0,5.4 -4.6,0" fill="#ffffff"/><circle r="1.6" fill="#7e22ce"/></g>
+    <g id="ht-tru"><circle r="10" fill="url(#hg-tru)" stroke="#155e75" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><polygon points="0,-5.5 1.5,-1.6 5.2,-1.3 2.4,1.2 3.3,5 0,3 -3.3,5 -2.4,1.2 -5.2,-1.3 -1.5,-1.6" fill="#ffffff"/></g>
+    <g id="ht-clu"><circle r="10" fill="url(#hg-clu)" stroke="#065f46" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><circle cx="-1.1" cy="-1.1" r="3.4" fill="none" stroke="#ffffff" stroke-width="1.7"/><line x1="1.4" y1="1.4" x2="4.8" y2="4.8" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/></g>
+    <g id="ht-sch"><circle r="10" fill="url(#hg-sch)" stroke="#7f1d1d" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><polygon points="0,-5.2 5.2,4.3 -5.2,4.3" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round"/><line x1="0" y1="-1.2" x2="0" y2="2" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/></g>
+    <g id="ht-fre"><circle r="10" fill="url(#hg-fre)" stroke="#312e81" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><rect x="-3.9" y="-4.7" width="7.8" height="9.4" rx="1.3" fill="none" stroke="#ffffff" stroke-width="1.6"/><circle r="1.6" fill="#ffffff"/></g>
+    <g id="ht-san"><circle r="10" fill="url(#hg-san)" stroke="#115e59" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><rect x="-1.6" y="-5.2" width="3.2" height="10.4" rx="0.7" fill="#ffffff"/><rect x="-5.2" y="-1.6" width="10.4" height="3.2" rx="0.7" fill="#ffffff"/></g>
+    <g id="ht-trh"><circle r="10" fill="url(#hg-trh)" stroke="#172554" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><path d="M-5.8,0 Q0,-4.8 5.8,0 Q0,4.8 -5.8,0 Z" fill="none" stroke="#ffffff" stroke-width="1.5"/><circle r="2.1" fill="#fbbf24"/></g>
+    <g id="ht-bnd"><circle r="10" fill="url(#hg-bnd)" stroke="#831843" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><circle cx="-2.2" cy="0" r="3.2" fill="none" stroke="#ffffff" stroke-width="1.6"/><circle cx="2.2" cy="0" r="3.2" fill="none" stroke="#ffffff" stroke-width="1.6"/></g>
+    <g id="ht-out"><circle r="10" fill="url(#hg-out)" stroke="#0c4a6e" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><circle r="5.3" fill="none" stroke="#ffffff" stroke-width="1.4"/><ellipse rx="2.4" ry="5.3" fill="none" stroke="#ffffff" stroke-width="1.1"/><line x1="-5.3" y1="0" x2="5.3" y2="0" stroke="#ffffff" stroke-width="1.1"/></g>
+    <g id="ht-plc"><circle r="10" fill="url(#hg-plc)" stroke="#292524" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><polygon points="0,-5.3 5.6,-1.2 -5.6,-1.2" fill="#ffffff"/><rect x="-3.9" y="-0.6" width="7.8" height="5.1" rx="0.6" fill="none" stroke="#ffffff" stroke-width="1.4"/></g>
+    <g id="ht-itm"><circle r="10" fill="url(#hg-itm)" stroke="#78350f" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><polygon points="0,-5.4 4.9,-2.5 4.9,2.7 0,5.5 -4.9,2.7 -4.9,-2.5" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-linejoin="round"/><polyline points="-4.9,-2.5 0,0.3 4.9,-2.5" fill="none" stroke="#ffffff" stroke-width="1.3"/><line x1="0" y1="0.3" x2="0" y2="5.5" stroke="#ffffff" stroke-width="1.3"/></g>
+    <g id="ht-evt"><circle r="10" fill="url(#hg-evt)" stroke="#7c2d12" stroke-width="0.9"/><circle r="8.2" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7"/><line x1="0" y1="-5" x2="0" y2="3.5" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round"/><polyline points="-3.7,0.3 0,4.3 3.7,0.3" fill="none" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g id="ht-non"><circle r="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.9"/><text y="3.2" text-anchor="middle" font-size="7.5" font-weight="800" fill="#64748b">无</text></g>
+  </defs>
+
+  <!-- Top Frontend Character & Talent Tabs -->
+  <path d="M 14 23 L 14 9 Q 14 4 19 4 L 125 4 Q 130 4 130 9 L 130 23 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <g transform="translate(27, 13.5)"><use href="#emblem-tree" /></g>
+  <text x="39" y="17" font-size="10" font-weight="800" fill="#0f172a">51号 · 单小林</text>
+
+  <path d="M 135 23 L 135 10 Q 135 6 139 6 L 201 6 Q 205 6 205 10 L 205 23 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.2" />
+  <text x="170" y="17.5" text-anchor="middle" font-size="9" font-weight="700" fill="#64748b">天赋 I</text>
+
+  <path d="M 210 23 L 210 10 Q 210 6 214 6 L 276 6 Q 280 6 280 10 L 280 23 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.2" />
+  <text x="245" y="17.5" text-anchor="middle" font-size="9" font-weight="700" fill="#64748b">天赋 II</text>
+
+  <!-- Main HUD Panel Container -->
+  <rect x="4" y="22" width="880" height="122" rx="9" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <!-- Cover active tab bottom seam -->
+  <line x1="14.8" y1="22" x2="129.2" y2="22" stroke="#ffffff" stroke-width="2" />
+
+  <!-- ==================== ROW 1: DAY + CORE STATES + 6 DOORS + SUMMARY ==================== -->
+  <!-- Day / Turn Tile -->
+  <g transform="translate(14, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="1" y="1" width="62" height="22" rx="5" fill="#f1f5f9" />
+    <text x="32" y="15.5" text-anchor="middle" font-size="9.5" font-weight="700" fill="#475569">DAY --</text>
+    <circle cx="20" cy="46" r="4.5" fill="#10b981" />
+    <text x="39" y="49.5" text-anchor="middle" font-size="9.5" font-weight="700" fill="#334155">先手</text>
+  </g>
+
+  <!-- Core State 1: 实验价值 -->
+  <g transform="translate(84, 30)">
+    <rect width="58" height="68" rx="6" fill="#f8fafc" stroke="#f59e0b" />
+    <rect x="0.8" y="0.8" width="56.4" height="21" rx="5.2" fill="#fef3c7" />
+    <text x="29" y="15" text-anchor="middle" font-size="9.5" font-weight="700" fill="#d97706">实验价值</text>
+    <text x="29" y="50" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+  </g>
+
+  <!-- Core State 2: 理智 SAN -->
+  <g transform="translate(147, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#14b8a6" />
+    <rect x="0.8" y="0.8" width="62.4" height="21" rx="5.2" fill="#ccfbf1" />
+    <text x="32" y="15" text-anchor="middle" font-size="9.5" font-weight="700" fill="#0d9488">理智 SAN</text>
+    <text x="32" y="43" text-anchor="middle" font-size="11.5" font-weight="800" fill="#0f172a" font-family="monospace">--/100</text>
+    <g transform="translate(9, 54)">
+      <rect x="0" y="0" width="8" height="5.5" rx="1" fill="#14b8a6" />
+      <rect x="9.5" y="0" width="8" height="5.5" rx="1" fill="#14b8a6" />
+      <rect x="19" y="0" width="8" height="5.5" rx="1" fill="#14b8a6" />
+      <rect x="28.5" y="0" width="8" height="5.5" rx="1" fill="#99f6e4" />
+      <rect x="38" y="0" width="8" height="5.5" rx="1" fill="#99f6e4" />
+    </g>
+  </g>
+
+  <!-- Core State 3: 羁绊 -->
+  <g transform="translate(216, 30)">
+    <rect width="62" height="68" rx="6" fill="#f8fafc" stroke="#ec4899" />
+    <rect x="0.8" y="0.8" width="60.4" height="21" rx="5.2" fill="#fce7f3" />
+    <text x="31" y="15" text-anchor="middle" font-size="9.5" font-weight="700" fill="#be185d">羁绊</text>
+    <text x="31" y="43" text-anchor="middle" font-size="11.5" font-weight="800" fill="#0f172a" font-family="monospace">25/100</text>
+    <g transform="translate(8, 54)">
+      <rect x="0" y="0" width="8" height="5.5" rx="1" fill="#ec4899" />
+      <rect x="9.5" y="0" width="8" height="5.5" rx="1" fill="#fbcfe8" />
+      <rect x="19" y="0" width="8" height="5.5" rx="1" fill="#fbcfe8" />
+      <rect x="28.5" y="0" width="8" height="5.5" rx="1" fill="#fbcfe8" />
+      <rect x="38" y="0" width="8" height="5.5" rx="1" fill="#fbcfe8" />
+    </g>
+  </g>
+
+  <line x1="286" y1="28" x2="286" y2="100" stroke="#cbd5e1" stroke-dasharray="2 2" />
+
+  <!-- 上三门 1: 体质 -> 体力 -->
+  <g transform="translate(294, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="1" y="1" width="62" height="26" rx="5" fill="#f1f5f9" />
+    <g transform="translate(12, 14) scale(0.95)"><use href="#i-sta" /></g>
+    <text x="23" y="12.5" font-size="9" font-weight="700" fill="#64748b">体质</text>
+    <text x="23" y="23.5" font-size="10" font-weight="800" fill="#475569" font-family="monospace">+--</text>
+    <text x="32" y="46" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+    <text x="32" y="61" text-anchor="middle" font-size="9.5" font-weight="600" fill="#64748b">体力</text>
+  </g>
+
+  <!-- 上三门 2: 算力 -> 异能 (with [2] conversion badge!) -->
+  <g transform="translate(363, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="1" y="1" width="62" height="26" rx="5" fill="#f1f5f9" />
+    <g transform="translate(11, 15) scale(0.95)"><use href="#i-psy" /></g>
+    <!-- Frontend Conversion Rate Corner Badge [2] -->
+    <rect x="14" y="4" width="10.5" height="11" rx="2.2" fill="#fef08a" stroke="#ca8a04" stroke-width="0.9" />
+    <text x="19.2" y="12.2" text-anchor="middle" font-size="8" font-weight="900" fill="#713f12">2</text>
+    <text x="28" y="12.5" font-size="9" font-weight="700" fill="#64748b">算力</text>
+    <text x="28" y="23.5" font-size="10" font-weight="800" fill="#475569" font-family="monospace">+--</text>
+    <text x="32" y="46" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+    <text x="32" y="61" text-anchor="middle" font-size="9.5" font-weight="600" fill="#64748b">异能</text>
+  </g>
+
+  <!-- 上三门 3: 魅力 -> 信任度 (with [3] conversion badge!) -->
+  <g transform="translate(432, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="1" y="1" width="62" height="26" rx="5" fill="#f1f5f9" />
+    <g transform="translate(11, 15) scale(0.95)"><use href="#i-tru" /></g>
+    <!-- Frontend Conversion Rate Corner Badge [3] -->
+    <rect x="14" y="4" width="10.5" height="11" rx="2.2" fill="#fef08a" stroke="#ca8a04" stroke-width="0.9" />
+    <text x="19.2" y="12.2" text-anchor="middle" font-size="8" font-weight="900" fill="#713f12">3</text>
+    <text x="28" y="12.5" font-size="9" font-weight="700" fill="#64748b">魅力</text>
+    <text x="28" y="23.5" font-size="10" font-weight="800" fill="#475569" font-family="monospace">+--</text>
+    <text x="32" y="46" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+    <text x="32" y="61" text-anchor="middle" font-size="9.5" font-weight="600" fill="#64748b">信任度</text>
+  </g>
+
+  <line x1="504" y1="28" x2="504" y2="100" stroke="#cbd5e1" stroke-dasharray="2 2" />
+
+  <!-- 下三门 1: 自由 -> 机会 -->
+  <g transform="translate(512, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="1" y="1" width="62" height="26" rx="5" fill="#f1f5f9" />
+    <g transform="translate(12, 14) scale(0.95)"><use href="#i-opp" /></g>
+    <text x="23" y="12.5" font-size="9" font-weight="700" fill="#64748b">自由</text>
+    <text x="23" y="23.5" font-size="10" font-weight="800" fill="#475569" font-family="monospace">+--</text>
+    <text x="32" y="46" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+    <text x="32" y="61" text-anchor="middle" font-size="9.5" font-weight="600" fill="#64748b">机会</text>
+  </g>
+
+  <!-- 下三门 2: 感知 -> 线索 -->
+  <g transform="translate(581, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="1" y="1" width="62" height="26" rx="5" fill="#f1f5f9" />
+    <g transform="translate(12, 14) scale(0.95)"><use href="#i-clu" /></g>
+    <text x="23" y="12.5" font-size="9" font-weight="700" fill="#64748b">感知</text>
+    <text x="23" y="23.5" font-size="10" font-weight="800" fill="#475569" font-family="monospace">+--</text>
+    <text x="32" y="46" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+    <text x="32" y="61" text-anchor="middle" font-size="9.5" font-weight="600" fill="#64748b">线索</text>
+  </g>
+
+  <!-- 下三门 3: 筹谋 -> 隐患 -->
+  <g transform="translate(650, 30)">
+    <rect width="64" height="68" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="1" y="1" width="62" height="26" rx="5" fill="#f1f5f9" />
+    <g transform="translate(12, 14) scale(0.95)"><use href="#i-haz" /></g>
+    <text x="23" y="12.5" font-size="9" font-weight="700" fill="#64748b">筹谋</text>
+    <text x="23" y="23.5" font-size="10" font-weight="800" fill="#475569" font-family="monospace">+--</text>
+    <text x="32" y="46" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+    <text x="32" y="61" text-anchor="middle" font-size="9.5" font-weight="600" fill="#64748b">隐患</text>
+  </g>
+
+  <line x1="722" y1="28" x2="722" y2="100" stroke="#cbd5e1" stroke-dasharray="2 2" />
+
+  <!-- Right Summary Counters: 因果力 / 手牌 / 已出牌统计 + 看牌 -->
+  <g transform="translate(730, 30)">
+    <rect x="0" y="0" width="70" height="31" rx="5" fill="#f8fafc" stroke="#e2e8f0" />
+    <circle cx="13" cy="15.5" r="7.5" fill="#0f172a" />
+    <text x="13" y="18.8" text-anchor="middle" font-size="8.5" font-weight="800" fill="#ffffff">因</text>
+    <text x="25" y="13" font-size="9" font-weight="700" fill="#64748b">因果力</text>
+    <text x="25" y="25.5" font-size="10.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+
+    <rect x="75" y="0" width="69" height="31" rx="5" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="83" y="8.5" width="9.5" height="13.5" rx="1.5" fill="#3b82f6" />
+    <text x="98" y="13" font-size="9" font-weight="700" fill="#64748b">手牌</text>
+    <text x="98" y="25.5" font-size="10.5" font-weight="800" fill="#0f172a" font-family="monospace">--</text>
+
+    <!-- Played Green/Blue/Red Card Summary + [看牌] Button -->
+    <rect x="0" y="37" width="88" height="31" rx="5" fill="#f8fafc" stroke="#e2e8f0" />
+    <rect x="8" y="46" width="5.5" height="13" rx="1" fill="#10b981" />
+    <rect x="16" y="46" width="5.5" height="13" rx="1" fill="#3b82f6" />
+    <rect x="24" y="46" width="5.5" height="13" rx="1" fill="#ef4444" />
+    <text x="58" y="56.5" text-anchor="middle" font-size="10.5" font-weight="800" fill="#334155" font-family="monospace">--</text>
+
+    <rect x="93" y="37" width="51" height="31" rx="5" fill="#eff6ff" stroke="#60a5fa" stroke-width="1.2" />
+    <text x="118.5" y="56.5" text-anchor="middle" font-size="10" font-weight="800" fill="#1d4ed8">看牌</text>
+  </g>
+
+  <!-- ==================== ROW 2: COMPLETE FRONTEND TAG COUNTER BAR ==================== -->
+  <rect x="14" y="105" width="860" height="31" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="26" y="124" font-size="9.5" font-weight="700" fill="#64748b">标志栏</text>
+  <line x1="68" y1="112" x2="68" y2="129" stroke="#e2e8f0" stroke-width="1.2" />
+
+  <!-- Group 1: 上三门 (异能, 信任) -->
+  <g transform="translate(96, 120.5)"><use href="#ht-psy" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+  <g transform="translate(152, 120.5)"><use href="#ht-tru" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+
+  <circle cx="195" cy="120.5" r="1.5" fill="#cbd5e1" />
+
+  <!-- Group 2: 下三门 (线索, 筹谋, 自由) -->
+  <g transform="translate(222, 120.5)"><use href="#ht-clu" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+  <g transform="translate(278, 120.5)"><use href="#ht-sch" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+  <g transform="translate(334, 120.5)"><use href="#ht-fre" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+
+  <circle cx="377" cy="120.5" r="1.5" fill="#cbd5e1" />
+
+  <!-- Group 3: 精神与故事核心 (理智, 真相, 羁绊) -->
+  <g transform="translate(404, 120.5)"><use href="#ht-san" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+  <g transform="translate(460, 120.5)"><use href="#ht-trh" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+  <g transform="translate(516, 120.5)"><use href="#ht-bnd" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+
+  <circle cx="559" cy="120.5" r="1.5" fill="#cbd5e1" />
+
+  <!-- Group 4a: 常驻事物标志 (外界, 地点, 物品) -->
+  <g transform="translate(586, 120.5)"><use href="#ht-out" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+  <g transform="translate(642, 120.5)"><use href="#ht-plc" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+  <g transform="translate(698, 120.5)"><use href="#ht-itm" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#334155" font-family="monospace">-</text></g>
+
+  <!-- Frontend Divider: In-Play Permanent Tags | Settled Red Events & Tagless -->
+  <line x1="744" y1="111" x2="744" y2="130" stroke="#94a3b8" stroke-width="1.6" />
+
+  <!-- Group 4b: 已结算事件区计数 & 无标志牌 -->
+  <g transform="translate(772, 120.5)"><use href="#ht-evt" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#9a3412" font-family="monospace">-</text></g>
+  <g transform="translate(830, 120.5)" opacity="0.55"><use href="#ht-non" /><text x="17" y="3.8" font-size="10" font-weight="800" fill="#64748b" font-family="monospace">-</text></g>
+</svg>

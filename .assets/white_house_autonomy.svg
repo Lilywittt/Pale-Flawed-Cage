@@ -1,0 +1,309 @@
+<svg viewBox="0 0 888 304" width="888" height="304" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Microsoft YaHei', sans-serif">
+  <defs>
+    <!-- Unified Resource Icons -->
+    <g id="a-sta"><polygon points="1,-6 -4,1 0,1 -1,6 4,-1 0,-1" fill="#eab308" /></g>
+    <g id="a-psy"><polygon points="0,-6 5,0 0,6 -5,0" fill="#a855f7" /><circle cx="0" cy="0" r="1.5" fill="#ffffff" /></g>
+    <g id="a-tru"><polygon points="0,-6 1.8,-1.8 6,-1.5 2.7,1.4 3.8,5.8 0,3.4 -3.8,5.8 -2.7,1.4 -6,-1.5 -1.8,-1.8" fill="#06b6d4" /></g>
+    <g id="a-opp"><rect x="-4.4" y="-5" width="8.8" height="10" rx="1.5" fill="none" stroke="#6366f1" stroke-width="1.8" /><circle cx="0" cy="0" r="1.7" fill="#6366f1" /></g>
+    <g id="a-clu"><circle cx="-1" cy="-1" r="3.6" fill="none" stroke="#10b981" stroke-width="1.8" /><line x1="1.6" y1="1.6" x2="4.8" y2="4.8" stroke="#10b981" stroke-width="1.8" stroke-linecap="round" /></g>
+    <g id="a-haz"><polygon points="0,-5.6 5.6,4.8 -5.6,4.8" fill="none" stroke="#ef4444" stroke-width="1.7" stroke-linejoin="round" /><line x1="0" y1="-1.3" x2="0" y2="2.2" stroke="#ef4444" stroke-width="1.6" stroke-linecap="round" /></g>
+    <g id="a-san"><rect x="-1.6" y="-5.4" width="3.2" height="10.8" rx="0.8" fill="#14b8a6" /><rect x="-5.4" y="-1.6" width="10.8" height="3.2" rx="0.8" fill="#14b8a6" /></g>
+    <g id="a-card"><rect x="-4" y="-5.4" width="8" height="10.8" rx="1.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="0.7" /></g>
+    <g id="a-discard"><rect x="-4" y="-5.4" width="8" height="10.8" rx="1.5" fill="#cbd5e1" stroke="#64748b" stroke-width="0.9" /></g>
+    <g id="a-auth"><rect x="-4.2" y="-0.6" width="8.4" height="6.4" rx="1.3" fill="#f59e0b" /><path d="M-2.2,-0.6 V-2.8 A2.2,2.2 0 0,1 2.2,-2.8 V-0.6" fill="none" stroke="#d97706" stroke-width="1.5" /></g>
+    <g id="a-truth-tag"><circle r="7.8" fill="#1e3a8a" stroke="#ffffff" stroke-width="1.1" /><path d="M-4.8,0 Q0,-4.2 4.8,0 Q0,4.2 -4.8,0 Z" fill="none" stroke="#ffffff" stroke-width="1.3" /><circle r="1.8" fill="#fbbf24" /></g>
+
+    <!-- Production Box (permanent stat increase inside left 3 cells) -->
+    <g id="prod-box">
+      <rect x="-9.5" y="-8.5" width="19" height="17" rx="2.8" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.1" />
+      <line x1="-7" y1="-5" x2="7" y2="-5" stroke="#cbd5e1" stroke-width="0.9" />
+    </g>
+
+    <!-- Player Permanent Markers (Diamonds) -->
+    <g id="mk-blue"><polygon points="0,-8 8,0 0,8 -8,0" fill="#3b82f6" stroke="#ffffff" stroke-width="1.4" /></g>
+    <g id="mk-pink"><polygon points="0,-8 8,0 0,8 -8,0" fill="#ec4899" stroke="#ffffff" stroke-width="1.4" /></g>
+
+    <!-- White Sliding Track Cursor -->
+    <g id="cursor-white">
+      <rect x="-6.8" y="-6.8" width="13.6" height="13.6" rx="2.4" fill="#ffffff" stroke="#0f172a" stroke-width="1.9" />
+      <rect x="-2.8" y="-2.8" width="5.6" height="5.6" rx="0.9" fill="#0f172a" />
+    </g>
+
+    <!-- Active Today Visit Tokens -->
+    <g id="visit-token-hdr">
+      <circle r="9.5" fill="#eef2ff" stroke="#6366f1" stroke-width="1.8" />
+      <polygon points="0,-4.8 4.2,3.4 0,1.4 -4.2,3.4" fill="#4f46e5" />
+    </g>
+    <g id="visit-blue">
+      <circle r="11.5" fill="#eff6ff" stroke="#3b82f6" stroke-width="2.1" />
+      <polygon points="0,-5.5 4.8,3.8 0,1.6 -4.8,3.8" fill="#2563eb" />
+    </g>
+    <g id="visit-pink">
+      <circle r="11.5" fill="#fdf2f8" stroke="#ec4899" stroke-width="2.1" />
+      <polygon points="0,-5.5 4.8,3.8 0,1.6 -4.8,3.8" fill="#db2777" />
+    </g>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="4" y="4" width="880" height="296" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+
+  <!-- Top Header Bar (Colonies style: Title + Daily Action Counter) -->
+  <g transform="translate(18, 22)">
+    <text x="0" y="4" font-size="13" font-weight="800" fill="#0f172a">自主行动</text>
+    <g transform="translate(68, 0)"><use href="#visit-token-hdr" /></g>
+    <text x="84" y="4" font-size="11.5" font-weight="800" fill="#334155" font-family="monospace">-- / --</text>
+  </g>
+
+  <!-- ==================== ROW 1 (4 TILES: x=14, 232, 450, 668 | y=40 | w=206, h=120) ==================== -->
+
+  <!-- 1. 护士 -->
+  <g transform="translate(14, 40)">
+    <rect width="206" height="120" rx="8" fill="#ffffff" stroke="#fcd34d" stroke-width="1.6" />
+    <rect x="1" y="1" width="204" height="24" rx="7" fill="#fef3c7" />
+    <text x="12" y="17" font-size="11.5" font-weight="800" fill="#92400e">护士</text>
+    <rect x="152" y="5" width="44" height="16" rx="4" fill="#ffffff" fill-opacity="0.75" />
+    <text x="174" y="16" text-anchor="middle" font-size="8.5" font-weight="700" fill="#b45309">话事人</text>
+
+    <g transform="translate(174, 46)" opacity="0.16">
+      <circle r="17" fill="#f59e0b" />
+      <rect x="-3" y="-9.5" width="6" height="19" rx="1.2" fill="#92400e" />
+      <rect x="-9.5" y="-3" width="19" height="6" rx="1.2" fill="#92400e" />
+    </g>
+
+    <g transform="translate(12, 37)">
+      <g transform="translate(5, 0) scale(0.95)"><use href="#a-sta" /></g>
+      <text x="16" y="3.5" font-size="9" font-weight="700" fill="#64748b">收获</text>
+    </g>
+    <text x="12" y="59" font-size="10.5" font-weight="800" fill="#0f172a">X</text>
+    <g transform="translate(27, 55)"><use href="#a-sta" /></g>
+
+    <g transform="translate(12, 68)">
+      <rect x="0" y="0" width="26" height="25" fill="#fef9c3" stroke="#cbd5e1" /><g transform="translate(13,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-sta" /></g><use href="#mk-blue" /></g>
+      <rect x="26" y="0" width="26" height="25" fill="#fef9c3" stroke="#cbd5e1" /><g transform="translate(39,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-sta" /></g></g>
+      <rect x="52" y="0" width="26" height="25" fill="#fef9c3" stroke="#cbd5e1" /><g transform="translate(65,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-sta" /></g></g>
+      <rect x="78" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" /><g transform="translate(91,12.5)"><use href="#cursor-white" /></g>
+      <rect x="104" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="130" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="156" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <g font-size="10.5" font-weight="800" fill="#334155" font-family="monospace" text-anchor="middle">
+        <text x="13" y="41">1</text><text x="39" y="41">2</text><text x="65" y="41">3</text><text x="91" y="41" fill="#d97706">4</text><text x="117" y="41">6</text><text x="143" y="41">8</text><text x="169" y="41">10</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 2. 岸本 -->
+  <g transform="translate(232, 40)">
+    <rect width="206" height="120" rx="8" fill="#ffffff" stroke="#d8b4fe" stroke-width="1.6" />
+    <rect x="1" y="1" width="204" height="24" rx="7" fill="#f3e8ff" />
+    <text x="12" y="17" font-size="11.5" font-weight="800" fill="#6b21a8">岸本</text>
+    <rect x="152" y="5" width="44" height="16" rx="4" fill="#ffffff" fill-opacity="0.75" />
+    <text x="174" y="16" text-anchor="middle" font-size="8.5" font-weight="700" fill="#7e22ce">话事人</text>
+
+    <g transform="translate(172, 46)">
+      <circle r="17" fill="#f3e8ff" />
+      <path d="M-12,0 L-6,0 L-2.5,-8 L2.5,8 L6,-4 L12,0" fill="none" stroke="#c084fc" stroke-width="1.8" />
+      <g transform="translate(-11, 2)"><use href="#visit-blue" /></g>
+    </g>
+
+    <g transform="translate(12, 37)">
+      <g transform="translate(5, 0) scale(0.95)"><use href="#a-psy" /></g>
+      <text x="16" y="3.5" font-size="9" font-weight="700" fill="#64748b">收获</text>
+    </g>
+    <text x="12" y="59" font-size="10.5" font-weight="800" fill="#0f172a">X</text>
+    <g transform="translate(27, 55)"><use href="#a-psy" /></g>
+
+    <g transform="translate(12, 68)">
+      <rect x="0" y="0" width="26" height="25" fill="#faf5ff" stroke="#cbd5e1" /><g transform="translate(13,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-psy" /></g><use href="#mk-blue" /></g>
+      <rect x="26" y="0" width="26" height="25" fill="#faf5ff" stroke="#cbd5e1" /><g transform="translate(39,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-psy" /></g><use href="#mk-pink" /></g>
+      <rect x="52" y="0" width="26" height="25" fill="#faf5ff" stroke="#cbd5e1" /><g transform="translate(65,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-psy" /></g><use href="#cursor-white" /></g>
+      <rect x="78" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="104" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="130" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="156" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <g font-size="10.5" font-weight="800" fill="#334155" font-family="monospace" text-anchor="middle">
+        <text x="13" y="41">1</text><text x="39" y="41">1</text><text x="65" y="41" fill="#7e22ce">2</text><text x="91" y="41">3</text><text x="117" y="41">4</text><text x="143" y="41">5</text><text x="169" y="41">6</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 3. 杨代 -->
+  <g transform="translate(450, 40)">
+    <rect width="206" height="120" rx="8" fill="#ffffff" stroke="#67e8f9" stroke-width="1.6" />
+    <rect x="1" y="1" width="204" height="24" rx="7" fill="#cffafe" />
+    <text x="12" y="17" font-size="11.5" font-weight="800" fill="#155e75">杨代</text>
+    <rect x="152" y="5" width="44" height="16" rx="4" fill="#ffffff" fill-opacity="0.75" />
+    <text x="174" y="16" text-anchor="middle" font-size="8.5" font-weight="700" fill="#0e7490">话事人</text>
+
+    <g transform="translate(174, 46)" opacity="0.2">
+      <circle r="17" fill="#06b6d4" />
+      <polygon points="0,-9 8,5 -8,5" fill="none" stroke="#155e75" stroke-width="2" />
+    </g>
+
+    <g transform="translate(12, 37)">
+      <g transform="translate(5, 0) scale(0.95)"><use href="#a-tru" /></g>
+      <text x="16" y="3.5" font-size="9" font-weight="700" fill="#64748b">收获</text>
+    </g>
+    <text x="12" y="59" font-size="10.5" font-weight="800" fill="#0f172a">X</text>
+    <g transform="translate(27, 55)"><use href="#a-tru" /></g>
+
+    <g transform="translate(12, 68)">
+      <rect x="0" y="0" width="26" height="25" fill="#ecfeff" stroke="#cbd5e1" /><g transform="translate(13,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-tru" /></g></g>
+      <rect x="26" y="0" width="26" height="25" fill="#ecfeff" stroke="#cbd5e1" /><g transform="translate(39,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-tru" /></g></g>
+      <rect x="52" y="0" width="26" height="25" fill="#ecfeff" stroke="#cbd5e1" /><g transform="translate(65,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-tru" /></g></g>
+      <rect x="78" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="104" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" /><g transform="translate(117,12.5)"><use href="#cursor-white" /></g>
+      <rect x="130" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="156" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <g font-size="10.5" font-weight="800" fill="#334155" font-family="monospace" text-anchor="middle">
+        <text x="13" y="41">1</text><text x="39" y="41">2</text><text x="65" y="41">3</text><text x="91" y="41">4</text><text x="117" y="41" fill="#0891b2">5</text><text x="143" y="41">6</text><text x="169" y="41">7</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 4. 刘岚 -->
+  <g transform="translate(668, 40)">
+    <rect width="206" height="120" rx="8" fill="#ffffff" stroke="#fca5a5" stroke-width="1.6" />
+    <rect x="1" y="1" width="204" height="24" rx="7" fill="#fee2e2" />
+    <text x="12" y="17" font-size="11.5" font-weight="800" fill="#991b1b">刘岚</text>
+    <rect x="152" y="5" width="44" height="16" rx="4" fill="#ffffff" fill-opacity="0.75" />
+    <text x="174" y="16" text-anchor="middle" font-size="8.5" font-weight="700" fill="#b91c1c">话事人</text>
+
+    <g transform="translate(174, 46)" opacity="0.18">
+      <circle r="17" fill="#ef4444" />
+      <circle r="7" fill="none" stroke="#7f1d1d" stroke-width="2" />
+      <circle r="2.4" fill="#7f1d1d" />
+    </g>
+
+    <g transform="translate(12, 37)">
+      <g transform="translate(5, 0) scale(0.95)"><use href="#a-haz" /></g>
+      <text x="16" y="3.5" font-size="9" font-weight="700" fill="#64748b">收获</text>
+    </g>
+    <text x="12" y="59" font-size="10.5" font-weight="800" fill="#0f172a">X</text>
+    <g transform="translate(27, 55)"><use href="#a-haz" /></g>
+
+    <g transform="translate(12, 68)">
+      <rect x="0" y="0" width="26" height="25" fill="#fef2f2" stroke="#cbd5e1" /><g transform="translate(13,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-haz" /></g><use href="#mk-pink" /></g>
+      <rect x="26" y="0" width="26" height="25" fill="#fef2f2" stroke="#cbd5e1" /><g transform="translate(39,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-haz" /></g></g>
+      <rect x="52" y="0" width="26" height="25" fill="#fef2f2" stroke="#cbd5e1" /><g transform="translate(65,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-haz" /></g><use href="#cursor-white" /></g>
+      <rect x="78" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="104" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="130" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="156" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <g font-size="10.5" font-weight="800" fill="#334155" font-family="monospace" text-anchor="middle">
+        <text x="13" y="41">0</text><text x="39" y="41">1</text><text x="65" y="41" fill="#dc2626">2</text><text x="91" y="41">2</text><text x="117" y="41">3</text><text x="143" y="41">4</text><text x="169" y="41">5</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 2 (3 TILES: x=14, 232, 450 | y=172 | w=206, h=120) ==================== -->
+
+  <!-- 5. 叶老师 -->
+  <g transform="translate(14, 172)">
+    <rect width="206" height="120" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.6" />
+    <rect x="1" y="1" width="204" height="24" rx="7" fill="#e2e8f0" />
+    <text x="12" y="17" font-size="11.5" font-weight="800" fill="#0f172a">叶老师</text>
+    <rect x="152" y="5" width="44" height="16" rx="4" fill="#ffffff" fill-opacity="0.8" />
+    <text x="174" y="16" text-anchor="middle" font-size="8.5" font-weight="700" fill="#334155">话事人</text>
+
+    <g transform="translate(174, 46)" opacity="0.2">
+      <circle r="17" fill="#64748b" />
+      <g transform="scale(1.4)"><use href="#a-auth" /></g>
+    </g>
+
+    <g transform="translate(12, 37)">
+      <text x="0" y="3.5" font-size="9.5" font-weight="800" fill="#334155">+</text>
+      <g transform="translate(11, 0) scale(0.9)"><use href="#a-card" /></g>
+      <text x="19" y="3.5" font-size="9.5" font-weight="800" fill="#334155">-</text>
+      <g transform="translate(29, 0) scale(0.9)"><use href="#a-discard" /></g>
+      <text x="38" y="3.5" font-size="9" font-weight="700" fill="#64748b">收获</text>
+    </g>
+    <text x="12" y="59" font-size="10.5" font-weight="800" fill="#0f172a">X</text>
+    <g transform="translate(27, 55)"><use href="#a-card" /></g>
+
+    <g transform="translate(12, 68)">
+      <rect x="0" y="0" width="26" height="25" fill="#fef3c7" stroke="#cbd5e1" /><g transform="translate(13,12.5)"><use href="#a-auth" /><use href="#mk-blue" /></g>
+      <rect x="26" y="0" width="26" height="25" fill="#fef3c7" stroke="#cbd5e1" /><g transform="translate(39,12.5)"><use href="#a-auth" /><use href="#cursor-white" /></g>
+      <rect x="52" y="0" width="26" height="25" fill="#fef3c7" stroke="#cbd5e1" /><g transform="translate(65,12.5)"><use href="#a-auth" /></g>
+      <rect x="78" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="104" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="130" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="156" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <g font-size="10.5" font-weight="800" fill="#334155" font-family="monospace" text-anchor="middle">
+        <text x="13" y="41">0</text><text x="39" y="41" fill="#2563eb">1</text><text x="65" y="41">1</text><text x="91" y="41">2</text><text x="117" y="41">2</text><text x="143" y="41">3</text><text x="169" y="41">3</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 6. 天空之树 -->
+  <g transform="translate(232, 172)">
+    <rect width="206" height="120" rx="8" fill="#ffffff" stroke="#5eead4" stroke-width="1.6" />
+    <rect x="1" y="1" width="204" height="24" rx="7" fill="#ccfbf1" />
+    <text x="12" y="17" font-size="11.5" font-weight="800" fill="#115e59">天空之树</text>
+    <rect x="144" y="5" width="52" height="16" rx="4" fill="#ffffff" fill-opacity="0.8" />
+    <text x="170" y="16" text-anchor="middle" font-size="8.5" font-weight="700" fill="#0f766e">特殊地点</text>
+
+    <g transform="translate(172, 46)">
+      <circle r="17" fill="#ccfbf1" />
+      <line x1="0" y1="9" x2="0" y2="-8" stroke="#14b8a6" stroke-width="2" />
+      <line x1="-7" y1="-3" x2="7" y2="-3" stroke="#14b8a6" stroke-width="1.6" />
+      <g transform="translate(-11, 2)"><use href="#visit-pink" /></g>
+    </g>
+
+    <g transform="translate(12, 37)">
+      <g transform="translate(5, 0) scale(0.95)"><use href="#a-san" /></g>
+      <text x="16" y="3.5" font-size="9" font-weight="700" fill="#64748b">收获</text>
+    </g>
+    <text x="12" y="59" font-size="10.5" font-weight="800" fill="#0f172a">X</text>
+    <g transform="translate(27, 55)"><use href="#a-san" /></g>
+
+    <g transform="translate(12, 68)">
+      <rect x="0" y="0" width="26" height="25" fill="#eef2ff" stroke="#cbd5e1" /><g transform="translate(13,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-opp" /></g><use href="#mk-pink" /></g>
+      <rect x="26" y="0" width="26" height="25" fill="#eef2ff" stroke="#cbd5e1" /><g transform="translate(39,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-opp" /></g><use href="#cursor-white" /></g>
+      <rect x="52" y="0" width="26" height="25" fill="#eef2ff" stroke="#cbd5e1" /><g transform="translate(65,12.5)"><use href="#prod-box" /><g transform="scale(0.85)"><use href="#a-opp" /></g></g>
+      <rect x="78" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="104" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="130" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="156" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <g font-size="10" font-weight="800" fill="#334155" font-family="monospace" text-anchor="middle">
+        <text x="13" y="41">2</text><text x="39" y="41" fill="#0d9488">4</text><text x="65" y="41">6</text><text x="91" y="41">8</text><text x="117" y="41">10</text><text x="143" y="41">12</text><text x="169" y="41">15</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 7. 荒废木屋 -->
+  <g transform="translate(450, 172)">
+    <rect width="206" height="120" rx="8" fill="#ffffff" stroke="#6ee7b7" stroke-width="1.6" />
+    <rect x="1" y="1" width="204" height="24" rx="7" fill="#d1fae5" />
+    <text x="12" y="17" font-size="11.5" font-weight="800" fill="#065f46">荒废木屋</text>
+    <rect x="144" y="5" width="52" height="16" rx="4" fill="#ffffff" fill-opacity="0.8" />
+    <text x="170" y="16" text-anchor="middle" font-size="8.5" font-weight="700" fill="#047857">特殊地点</text>
+
+    <g transform="translate(174, 46)" opacity="0.22">
+      <circle r="17" fill="#10b981" />
+      <polygon points="0,-9 10,1 -10,1" fill="#065f46" />
+      <rect x="-6.5" y="1" width="13" height="7.5" fill="#065f46" />
+    </g>
+
+    <g transform="translate(12, 37)">
+      <g transform="translate(4, 0) scale(0.9)"><use href="#a-card" /></g>
+      <text x="13" y="3.5" font-size="9" font-weight="700" fill="#475569">看顶买/弃 · 收获</text>
+    </g>
+    <g transform="translate(12, 55)">
+      <g transform="translate(4, 0) scale(0.9)"><use href="#a-discard" /></g>
+      <text x="13" y="3.5" font-size="9.5" font-weight="800" fill="#0f172a">弃牌 n 选 1</text>
+    </g>
+
+    <g transform="translate(12, 68)">
+      <rect x="0" y="0" width="26" height="25" fill="#ecfdf5" stroke="#cbd5e1" /><g transform="translate(13,12.5)"><use href="#a-truth-tag" /></g>
+      <rect x="26" y="0" width="26" height="25" fill="#ecfdf5" stroke="#cbd5e1" /><g transform="translate(39,12.5)"><use href="#a-truth-tag" /></g>
+      <rect x="52" y="0" width="26" height="25" fill="#ecfdf5" stroke="#cbd5e1" /><g transform="translate(65,12.5)"><use href="#a-truth-tag" /></g>
+      <rect x="78" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="104" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" /><g transform="translate(117,12.5)"><use href="#cursor-white" /></g>
+      <rect x="130" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <rect x="156" y="0" width="26" height="25" fill="#f8fafc" stroke="#cbd5e1" />
+      <g font-size="10.5" font-weight="800" fill="#334155" font-family="monospace" text-anchor="middle">
+        <text x="13" y="41">1</text><text x="39" y="41">1</text><text x="65" y="41">2</text><text x="91" y="41">2</text><text x="117" y="41" fill="#059669">3</text><text x="143" y="41">3</text><text x="169" y="41">4</text>
+      </g>
+    </g>
+  </g>
+</svg>
