@@ -4,3 +4,6 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Local reference source checkout
+竞品调研/terraforming-mars/
